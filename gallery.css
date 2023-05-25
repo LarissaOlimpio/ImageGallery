@@ -1,0 +1,45 @@
+
+.model-1 .container:nth-child(1){
+    grid-row: 1/3;
+}
+.model-1 .container:nth-child(1) img,
+.model-2 .container:nth-child(3) img{
+    aspect-ratio: 9/16;/*vertical*/
+}
+.horizontal{
+    grid-column: 1/3;
+}
+.horizontal img{
+    aspect-ratio: 16/9; /*horizontal*/
+}
+.model-2 .container:nth-child(3){
+    grid-column: 2;
+    grid-row: 1/3;
+}
+
+.container{
+    position: relative;
+    outline: 4px solid transparent;
+    transition: all .4s;
+    cursor: pointer;
+}
+.container span{
+    font-size: 2rem;
+    display: block;
+    width: 100%;
+    padding: 2.4rem;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(to bottom, transparent, black 80%); /*De cima para baixo*/
+    visibility:  hidden;
+    opacity: 0;
+    transition: all .4s;
+}
+/*hover*/
+.container:hover span{
+    visibility: visible;
+    opacity: 1;
+}
+.container:hover{
+    outline-color: #ffffff;
+}

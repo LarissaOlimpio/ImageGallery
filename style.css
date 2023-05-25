@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*Para suavizar os textos:*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+}
+:root {
+  font-family: Hepta Slab;
+  font-size: 50%;
+}
+body {
+  background-color: #121214;
+  color: #ffffff;
+  padding: 7rem 6.7rem 7rem 5.5rem;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1; /*imagem quadrada*/
+}
+.grid {
+  display: grid;
+  gap: 3.2rem;
+}
+header {
+  position: relative;
+  max-width: 500rem;
+}
+header h1 {
+  font-size: 4.8rem;
+  font-weight: 400;
+}
+header i {
+  display: block; /*i por pradrão é inline*/
+  font-size: 3.2rem;
+  margin-top: 3.2rem;
+}
+footer {
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 2rem 0 2rem 0;
+  letter-spacing: 0.3rem;
+}
+footer i {
+    color: #9434EA;
+}
+footer a {
+    color: #ffffff;
+}
+@media (min-width: 768px) {
+  body {
+    padding: 14rem 13.4rem 14rem 11rem;
+  }
+  header i {
+    padding-bottom: 2rem;
+  }
+  footer {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  main {
+    margin-left: 50.6rem;
+  }
+  header {
+    position: fixed;
+    max-width: 30rem;
+  }
+  header i {
+    padding-bottom: 0;
+  }
+  footer {
+    padding: 4rem 0 3rem 0;
+    text-align: center;
+    font-size: 3rem;
+  }
+}
