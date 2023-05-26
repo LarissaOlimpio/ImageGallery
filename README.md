@@ -9,7 +9,7 @@ Este é um desafio do projeto BoraCodar da RocketSeat, onde implementei o design
 | -------------  | --- |
 | :sparkles: Nome        | **Image Gallery**
 | :label: Tecnologias | JavaScript, HTML5, CSS3 (tecnologias utilizadas)
-| :rocket: URL         | 
+| :rocket: URL         | https://image-gallery-dxfbxsebz-larissaolimpio.vercel.app
 
 ![imageGallery](https://github.com/LarissaOlimpio/ImageGallery/assets/50180854/a1473283-672a-428e-bb65-48555ac7ce05#vitrinedev)
 
