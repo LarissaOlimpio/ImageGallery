@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este é um desafio do projeto BoraCodar da RocketSeat, onde implementei o design responsivo e alguns detalhes visuais como o rodapé personalizado. O intuito desse projeto é ser uma galeria com design elegante caprichado em seus efeitos hover sobre os elementos e com layoult criado em grid. ADessa forma, foi criado utilizando HTML5 e CSS3 além de imagens do Unsplash.
+Este é um desafio do projeto BoraCodar da RocketSeat, onde implementei o design responsivo e alguns detalhes visuais como o rodapé personalizado. O intuito desse projeto é ser uma galeria com design elegante caprichado em seus efeitos hover sobre os elementos e com layoult criado em grid. Dessa forma, foi criado utilizando HTML5 e CSS3 além de imagens do Unsplash.
 
 
 | :placard: Vitrine.Dev |     |
